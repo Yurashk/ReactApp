@@ -6,3 +6,15 @@ input {
 .productCard {
     color: black;
 }
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    color: blue;
+}
+
+.Navigation {
+    height: 100vh;
+}

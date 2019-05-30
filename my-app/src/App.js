@@ -15,7 +15,7 @@ class App extends React.Component{
     fetch(`https://demo8421975.mockable.io/products`);
     const data=await api_url.json();
     this.setState({ localData: data });
-    console.log(data);
+   
   }
   render(){
     return(
